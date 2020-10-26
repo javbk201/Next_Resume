@@ -1,0 +1,8 @@
+---
+title: 'DESARROLLO DE APLICACIONES MÓVILES'
+date: '2019-06'
+---
+
+DESARROLLO DE APLICACIONES MÓVILES
+
+Google Actívate

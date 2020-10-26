@@ -34,6 +34,10 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <img
+          src={`/public/images/${postData.id}.jpg`}
+          alt={`${postData.id}`}
+        />
       </article>
     </Layout>
   )

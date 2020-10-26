@@ -4,7 +4,9 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Jaime Avendaño'
-export const siteTitle = 'Next.js Sample Website'
+const email = 'jaime.aven.villa@gmail.com'
+const num_pho = '3053441697'
+export const siteTitle = 'Resume'
 
 export default function Layout({ children, home }) {
   return (
@@ -33,6 +35,11 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <p className={utilStyles.lightText2}>
+            {email}
+            <br />
+            {num_pho}
+            </p>
           </>
         ) : (
           <>
@@ -50,6 +57,11 @@ export default function Layout({ children, home }) {
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
+            <p className={utilStyles.lightText2}>
+            {email}
+            <br />
+            {num_pho}
+            </p>
           </>
         )}
       </header>
