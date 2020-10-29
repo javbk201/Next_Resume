@@ -23,8 +23,6 @@ function Education() {
             microbianas (MFC)
           </p>
         </div>
-        <img scr="../../public/images/Udemy.jpg" alt="diploma">
-        </img>
       </article>
     </Layout>
   )

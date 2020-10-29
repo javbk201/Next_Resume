@@ -6,3 +6,7 @@ date: '2019-08'
 BASE DE DATOS GENERALIDADES Y SISTEMAS DE GESTIÓN
 
 SENA
+
+Codigo de Validación: 9231001941590CC1082949873C
+
+URL de validación: http://certificados.sena.edu.co

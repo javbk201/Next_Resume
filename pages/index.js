@@ -1,7 +1,11 @@
+import React from "react";
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import Link from 'next/link'
 import Date from '../components/date'
+
+import '@coreui/icons/css/all.css'
+import '@coreui/icons/css/brand.css'
 
 import { getSortedPostsData } from '../lib/posts'
 
@@ -24,6 +28,16 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <p>
+         Ingeniero electrónico de la Universidad del Magdalena
+         con conocimientos en programación en especial en el campo
+         de desarrollo de aplicaciones web con reactjs, nodejs
+         entre otros. Manejo de sistemas de control de versiones
+         como GitHub, servicios ofimáticos en la nube, como Google
+         Docs. Familiarizado con entornos Linux. Apasionado por
+         temas relacionados con las nuevas tecnologías, matemáticas
+         y física.
+        </p>
         <p>
           [Electronic Engineer from Universidad del Magdalena
           with knowledge in programming, especially in the
@@ -98,20 +112,30 @@ export default function Home({ allPostsData }) {
             <br />
           </li>
           <li className={utilStyles.listItem}>
-               Self confidence <i class="cib-github"></i>
+               GitHub
             <br />
           </li>
           <li className={utilStyles.listItem}>
-               Next.js <i class="cib-github"></i>
+               Next.js
+            <br />
+          </li>
+          <li className={utilStyles.listItem}>
+               Resolución de Problemas
             <br />
           </li>
         </ul>
       </section>
       <section>
         <footer className={utilStyles.footer}>
-        <a href="https://github.com/javbk201">
-        <i class="cli-bed">GitHub</i>
-        </a>
+          <div className={utilStyles.grid}>
+            <a href="https://github.com/javbk201">
+            <i className={"cib-github"}> GitHub</i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/jaime-andrés-avendaño-villa-65183315b/ ">
+            <i className={"cib-linkedin-in"}> LinkedIn </i>
+            </a>
+          </div>
         </footer>
       </section>
     </Layout>
